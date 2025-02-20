@@ -23,7 +23,7 @@ export default function page() {
 
       <div className={styles.projs}>
         <h3 className={styles.head}>My Portfolio</h3>
-        <a href="http://localhost:3000/" target="_blank" className={styles.description}>
+        <a href="https://portfolio-omega-three-79.vercel.app" className={styles.description}>
         <div className={styles.projDetail}>
 
           <p className={styles.words}>
