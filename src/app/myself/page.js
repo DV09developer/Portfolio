@@ -1,26 +1,23 @@
 import Link from 'next/link';
 import '@/app/globals.css';
 import styles from "./myself.module.css";
-// import style from "../page.module.css";
 
 export default function page() {
   return (
-    <div className={` ${styles.myself}`}>
+    <div className={`min-h-screen flex flex-col justify-center items-center ${styles.myself}`}>
       <div className={`rounded-2xl w-3/4  ${styles.div}`}>
         <h2 className={`text-center text-3xl font-bold px-16 ${styles.padding}`} >Education</h2>
 
-        <div className="1012 flex justify-around">
+        <div className="flex flex-col md:flex-row md:justify-around">
 
-          <div className={`std ${styles.div}`}>
-            <h3 className="text-blue-600/75 dark:text-sky-400/75 text-xl font-italic">10th Standard</h3>
+          <div className={styles.div}>
+            <h3 className="text-sky-400/75 text-xl font-italic">10th Standard</h3>
             <h5>72.5%</h5>
-            {/* <p>I complete my 10th standard in 2018 with an 72.5%</p> */}
           </div>
 
-          <div className={`std ${styles.div}`}>
-            <h3 className='text-blue-600/75 dark:text-sky-400/75 text-xl font-italic'>12th Standard</h3>
+          <div className={styles.div}>
+            <h3 className='text-sky-400/75 text-xl font-italic'>12th Standard</h3>
             <h5>67.57%</h5>
-            {/* <p>I complete my 12th standard in 2020 with an 67.5%</p> */}
           </div>
         </div>
 
@@ -28,7 +25,6 @@ export default function page() {
           <h3 className='text-blue-600/75 dark:text-sky-400/75 text-xl font-italic text-center'>Bachlor Of Engineering in Computer Engineering</h3>
           <h5 className='text-center'>6.91 CGPA</h5>
           <h5 className='text-center'>S.V.I.T. ,Vasad from Gujrat Technological University</h5>
-          {/* <p>I complete my Computer Engineering in 2024 with an 6.91 CGPA and 7.11 CPI</p>  */}
         </div>
       </div>
 

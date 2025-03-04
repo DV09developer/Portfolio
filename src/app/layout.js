@@ -15,15 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <main className="z-100 fixed top-0 flex justify-center w-full h-[50px] ">
-          <ul className={`bg-black ${styles.navlist}`}>
+          <ul className={`bg-black md:text-xl text-sm ${styles.navlist}`}>
             <li><Link href="/">Home</Link></li>
             <li><Link href="myself">My Self</Link></li>
             <li><Link href="experiance">Experiance</Link></li>
           </ul>
         </main>
-        {/* <div className="absolute top-1/2 left-1/2 -z-1 transform -translate-x-1/2 -translate-y-1/2"> */}
-          {/* <img src="MovingPhoto.png" alt="Rotating"  width={171} className={`${styles.trident}`}/> */}
-        {/* </div> */}
         {children}
       </body>
     </html>

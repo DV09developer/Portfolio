@@ -4,8 +4,7 @@
 }
 
 .myself{
-    margin-top: 55px;
-    /* background-color: #b1b1b1; */
+    padding-top: 55px;
 }
 
 .padding{
@@ -20,5 +19,5 @@
     padding: 9px;
 }
 .std{
-    margin: 0 auto ;
+    margin: auto ;
 }
